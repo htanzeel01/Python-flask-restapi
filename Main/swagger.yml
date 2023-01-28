@@ -10,7 +10,7 @@ servers:
 paths:
   /student:
     get:
-      operationId: "Main.service.get_all_student"
+      operationId: "Main.Service.studentservice.get_all_student"
       tags:
         - "People"
       summary: "Read the list of people"
